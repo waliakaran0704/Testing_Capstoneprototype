@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c628227fc6de4fcf8acf278171b45126" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.Address" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.Admin" Width="1.5" PointX="3.375" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.Car" Width="1.5" PointX="11.125" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.CastingDirector" Width="1.5" PointX="5.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.EthinicOrigin" Width="1.5" PointX="13.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.FamilyMember" Width="1.5" PointX="6.125" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.Login" Width="1.5" PointX="3.125" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.Skill" Width="1.5" PointX="12" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneMVCAPPDBModel.Talent" Width="1.5" PointX="8.25" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_AdminCastingDirector" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_AdminTalent" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_LoginAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_LoginCastingDirector" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_EthinicOriginFamilyMember" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_EthinicOriginTalent" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FK_LoginTalent" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FamilyMemberAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FamilyMemberCar" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.FamilyMemberSkill" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.TalentAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.TalentCar" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneMVCAPPDBModel.TalentSkill" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

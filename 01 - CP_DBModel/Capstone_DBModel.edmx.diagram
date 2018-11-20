@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4dd98d6ca4454e71a5b4a3fdbf6eabfd" Name="Diagram1" >
+        <EntityTypeShape EntityType="Capstone_DBModel.Admin" Width="1.5" PointX="0.625" PointY="0.5" />
+        <EntityTypeShape EntityType="Capstone_DBModel.Login" Width="1.5" PointX="2.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Capstone_DBModel.CastingDirector" Width="1.5" PointX="0.625" PointY="3.125" />
+        <EntityTypeShape EntityType="Capstone_DBModel.Talent" Width="1.5" PointX="4.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Capstone_DBModel.Address" Width="1.5" PointX="6.625" PointY="0.5" />
+        <EntityTypeShape EntityType="Capstone_DBModel.EthinicOrigin" Width="1.5" PointX="6.5" PointY="2.625" />
+        <EntityTypeShape EntityType="Capstone_DBModel.Car" Width="1.5" PointX="8.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Capstone_DBModel.FamilyMember" Width="1.5" PointX="10.375" PointY="0.5" />
+        <AssociationConnector Association="Capstone_DBModel.AdminCastingDirector" />
+        <AssociationConnector Association="Capstone_DBModel.AdminTalent" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="Capstone_DBModel.TalentAddress" />
+        <EntityTypeShape EntityType="Capstone_DBModel.Skill" Width="1.5" PointX="8.375" PointY="3.125" />
+        <AssociationConnector Association="Capstone_DBModel.FamilyMemberAddress" />
+        <AssociationConnector Association="Capstone_DBModel.EthinicOriginTalent" />
+        <AssociationConnector Association="Capstone_DBModel.EthinicOriginFamilyMember" ManuallyRouted="true" >
+          <ConnectorPoint PointX="8" PointY="2.9949446614583328" />
+          <ConnectorPoint PointX="8.0104166666666661" PointY="2.9949446614583324" />
+          <ConnectorPoint PointX="8.1770833333333339" PointY="2.9949446614583328" />
+          <ConnectorPoint PointX="9.8854166666666661" PointY="2.9949446614583324" />
+          <ConnectorPoint PointX="10.052083333333334" PointY="2.9949446614583328" />
+          <ConnectorPoint PointX="10.375" PointY="2.9949446614583328" />
+        </AssociationConnector>
+        <AssociationConnector Association="Capstone_DBModel.LoginCastingDirector" />
+        <AssociationConnector Association="Capstone_DBModel.LoginTalent" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="Capstone_DBModel.LoginAdmin" />
+        <AssociationConnector Association="Capstone_DBModel.TalentCar" />
+        <AssociationConnector Association="Capstone_DBModel.TalentSkill" ManuallyRouted="true" >
+          <ConnectorPoint PointX="6" PointY="4.5980843098958326" />
+          <ConnectorPoint PointX="8.0104166666666661" PointY="4.5980843098958317" />
+          <ConnectorPoint PointX="8.1770833333333339" PointY="4.5980843098958326" />
+          <ConnectorPoint PointX="8.375" PointY="4.5980843098958326" />
+        </AssociationConnector>
+        <AssociationConnector Association="Capstone_DBModel.FamilyMemberSkill" />
+        <AssociationConnector Association="Capstone_DBModel.FamilyMemberCar" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
